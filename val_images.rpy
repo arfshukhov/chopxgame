@@ -1,0 +1,10 @@
+image clock_5 = "images/211109_original.jpg"
+image black_screen = "#000"
+image natovsbrics = im.Scale("images/NATOvsBRICS.png", 1920, 1080)
+image gasmask = im.Scale("images/gasmask.jpg", 1920, 1080)
+image knife = im.Scale("images/knife.jpg", 1920, 1080)
+image medkit = im.Scale("images/medkit.jpg", 1920, 1080)
+image flashlight = im.Scale("images/flashlight.jpeg", 1920, 1080)
+image signal_pistol = im.Scale("images/signal_pistol.jpg", 1920, 1080)
+image shocked_man = im.Scale("images/shocked_man.jpg", 1920, 1080)
+image people_underfloor = im.Scale("images/underfloor.png", 1920, 1080)

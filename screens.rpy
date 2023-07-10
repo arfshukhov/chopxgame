@@ -251,7 +251,7 @@ screen quick_menu():
 
             #textbutton _("Назад") action Rollback()
             textbutton _("История") action ShowMenu('history')
-            textbutton _("Пропуск") action Skip() alternate Skip(fast=True, confirm=True)
+            #textbutton _("Пропуск") action Skip() alternate Skip(fast=True, confirm=True)
             textbutton _("Авто") action Preference("auto-forward", "toggle")
             textbutton _("Сохранить") action ShowMenu('save')
             textbutton _("Б.Сохр") action QuickSave()
@@ -317,7 +317,7 @@ screen navigation():
 
             textbutton _("Главное меню") action MainMenu()
 
-        textbutton _("Об игре") action ShowMenu("about")
+        #textbutton _("Об игре") action ShowMenu("about")
 
         if renpy.variant("pc") or (renpy.variant("web") and not renpy.variant("mobile")):
 
@@ -386,7 +386,7 @@ style main_menu_frame:
     xsize 420
     yfill True
 
-    background "gui/overlay/main_menu.png"
+    background "gui/nuclear_blast.png"
 
 style main_menu_vbox:
     xalign 1.0
